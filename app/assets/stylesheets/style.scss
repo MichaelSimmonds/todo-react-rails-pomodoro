@@ -1,0 +1,23 @@
+h1, h2, h3, h4 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+form, table, p, a {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.login-button {
+  position: absolute;
+  // z-index: 100;
+  top: 1em;
+  right: 1em;
+  padding: 0.6em 1em;
+  background-color: rgba(255, 255, 255, 0.91);
+    // border: 1.1px solid gray;
+  box-shadow: 3px 3px 6px 0px grey;
+}
+
+.notice, .alert {
+  position: absolute;
+}

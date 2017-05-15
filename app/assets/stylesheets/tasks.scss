@@ -1,0 +1,48 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.task-page-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-image: image-url('typewriter-801921_1920.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.task-container {
+  margin-top: 10vh;
+  padding: 5% 10% 10% 10%;
+  background-color: rgba(255, 255, 255, 0.91);
+  // border: 1.1px solid gray;
+  box-shadow: 3px 3px 6px 0px grey;
+}
+
+.tasks h2 {
+  text-align: center;
+}
+
+.input-form {
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+  .form-control {
+    border: 1px solid #838383;
+  }
+  .form-group {
+    margin-left: 2%;
+  }
+}
+
+.table-row>td {
+  vertical-align: middle !important;
+}
+
+table td:last-child {
+  display: flex;
+  justify-content: space-around;
+}

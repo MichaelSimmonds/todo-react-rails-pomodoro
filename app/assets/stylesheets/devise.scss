@@ -1,0 +1,19 @@
+.devise-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.devise-container {
+  z-index: 3;
+  padding: 5%;
+  margin-top: 5em;
+  background-color: rgba(255, 255, 255, 0.91);
+  // border: 1.1px solid gray;
+  box-shadow: 3px 3px 6px 0px grey;
+
+  div {
+    padding: 2px;
+    margin-bottom: 2%;
+  }
+}
